@@ -1,7 +1,5 @@
 package ru.stqa.pft.addressbook.appmanager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -11,6 +9,7 @@ import java.util.Map;
 
 public class ApplicationManager {
     public WebDriver driver;
+    private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
     private  GroupHelper groupHelper;
     JavascriptExecutor js;
@@ -23,17 +22,8 @@ public class ApplicationManager {
         vars = new HashMap<String, Object>();
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
-        login("admin", "secret");
-    }
-
-    private void login(String username, String password) {
-      driver.get("http://localhost/addressbook/");
-      driver.manage().window().setSize(new Dimension(1079, 695));
-      driver.findElement(By.name("user")).click();
-      driver.findElement(By.name("user")).sendKeys(username);
-      driver.findElement(By.name("pass")).click();
-      driver.findElement(By.name("pass")).sendKeys(password);
-      driver.findElement(By.cssSelector("input:nth-child(7)")).click();
+        sessionHelper = new SessionHelper(driver);
+        sessionHelper.login("admin", "secret");
     }
 
     public void stop() {
@@ -47,4 +37,5 @@ public class ApplicationManager {
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
     }
+
 }
