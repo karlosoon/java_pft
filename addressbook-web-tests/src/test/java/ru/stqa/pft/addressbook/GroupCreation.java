@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-public class Test3Test {
+public class GroupCreation {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
@@ -32,13 +32,6 @@ public class Test3Test {
     driver = new FirefoxDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-  }
-  @After
-  public void tearDown() {
-    driver.quit();
-  }
-  @Test
-  public void test3() {
     driver.get("http://localhost/addressbook/");
     driver.manage().window().setSize(new Dimension(1079, 695));
     driver.findElement(By.name("user")).click();
@@ -46,6 +39,14 @@ public class Test3Test {
     driver.findElement(By.name("pass")).click();
     driver.findElement(By.name("pass")).sendKeys("secret");
     driver.findElement(By.cssSelector("input:nth-child(7)")).click();
+  }
+  @After
+  public void tearDown() {
+    driver.quit();
+  }
+  @Test
+  public void testGroupCreation() {
+
     driver.findElement(By.linkText("groups")).click();
     driver.findElement(By.name("new")).click();
     driver.findElement(By.name("group_name")).click();
