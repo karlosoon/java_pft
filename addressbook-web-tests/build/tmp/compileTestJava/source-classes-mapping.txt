@@ -1,0 +1,6 @@
+ru/stqa/pft/addressbook/CreateGroupTest.java
+ ru.stqa.pft.addressbook.CreateGroupTest
+ru/stqa/pft/addressbook/CreateGroupTestWait.java
+ ru.stqa.pft.addressbook.CreateGroupTestWait
+ru/stqa/pft/addressbook/Test3Test.java
+ ru.stqa.pft.addressbook.Test3Test
