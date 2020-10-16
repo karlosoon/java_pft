@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.DeleteGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T11:44:36" hostname="DESKTOP-5LJNKTP" time="4.131">
+<testsuite name="ru.stqa.pft.addressbook.DeleteGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T11:46:11" hostname="DESKTOP-5LJNKTP" time="3.997">
   <properties/>
-  <testcase name="testDeleteGroup" classname="ru.stqa.pft.addressbook.DeleteGroupTest" time="4.131"/>
+  <testcase name="testDeleteGroup" classname="ru.stqa.pft.addressbook.DeleteGroupTest" time="3.997"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1602848676544	geckodriver	INFO	Listening on 127.0.0.1:36614
-1602848677161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\73B5~1\\AppData\\Local\\Temp\\rust_mozprofileowQ0Wd"
+  <system-err><![CDATA[1602848771266	geckodriver	INFO	Listening on 127.0.0.1:22734
+1602848771884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\73B5~1\\AppData\\Local\\Temp\\rust_mozprofilezeV9b8"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1602848678610	Marionette	INFO	Listening on port 51348
-1602848678701	Marionette	WARN	TLS certificate errors will be ignored for this session
-окт. 16, 2020 2:44:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1602848773222	Marionette	INFO	Listening on port 51488
+1602848773411	Marionette	WARN	TLS certificate errors will be ignored for this session
+окт. 16, 2020 2:46:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1602848679820	Marionette	INFO	Stopped listening on port 51348
+1602848774514	Marionette	INFO	Stopped listening on port 51488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
