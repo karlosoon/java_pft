@@ -14,7 +14,7 @@ public class SessionHelper extends HelperBase {
 
     public void login(String username, String password) {
       driver.get("http://localhost/addressbook/");
-      driver.manage().window().setSize(new Dimension(1079, 695));
+      driver.manage().window().maximize();
       type(By.name("user"), username);
       type(By.name("pass"), password);
       click(By.cssSelector("input:nth-child(7)"));
