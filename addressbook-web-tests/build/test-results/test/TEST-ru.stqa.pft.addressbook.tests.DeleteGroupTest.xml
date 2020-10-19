@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.pft.addressbook.tests.DeleteGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-19T10:17:37" hostname="DESKTOP-5LJNKTP" time="4.173">
+<testsuite name="ru.stqa.pft.addressbook.tests.DeleteGroupTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-19T11:41:07" hostname="DESKTOP-5LJNKTP" time="7.157">
   <properties/>
-  <testcase name="testDeleteGroup" classname="ru.stqa.pft.addressbook.tests.DeleteGroupTest" time="4.173"/>
+  <testcase name="testDeleteGroup" classname="ru.stqa.pft.addressbook.tests.DeleteGroupTest" time="7.157"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1603102657281	geckodriver	INFO	Listening on 127.0.0.1:16407
-1603102657903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\73B5~1\\AppData\\Local\\Temp\\rust_mozprofileLIY4oA"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1603102659300	Marionette	INFO	Listening on port 58636
-1603102659445	Marionette	WARN	TLS certificate errors will be ignored for this session
-окт. 19, 2020 1:17:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.150.1.0
+Listening on port 7030
+Only local connections are allowed
+окт. 19, 2020 2:41:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1603102660610	Marionette	INFO	Stopped listening on port 58636
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
 ]]></system-err>
 </testsuite>

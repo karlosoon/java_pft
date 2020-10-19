@@ -8,6 +8,8 @@ ru/stqa/pft/addressbook/appmanager/SessionHelper.java
  ru.stqa.pft.addressbook.appmanager.SessionHelper
 ru/stqa/pft/addressbook/appmanager/GroupHelper.java
  ru.stqa.pft.addressbook.appmanager.GroupHelper
+ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
+ ru.stqa.pft.addressbook.appmanager.ApplicationManager
 ru/stqa/pft/addressbook/tests/DeleteGroupTest.java
  ru.stqa.pft.addressbook.tests.DeleteGroupTest
 ru/stqa/pft/addressbook/tests/TestBase.java
@@ -16,5 +18,3 @@ ru/stqa/pft/addressbook/tests/GroupCreation.java
  ru.stqa.pft.addressbook.tests.GroupCreation
 ru/stqa/pft/addressbook/tests/GroupModificationTest.java
  ru.stqa.pft.addressbook.tests.GroupModificationTest
-ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
- ru.stqa.pft.addressbook.appmanager.ApplicationManager
