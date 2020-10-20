@@ -20,9 +20,9 @@ ru/stqa/pft/addressbook/tests/TestBase.java
  ru.stqa.pft.addressbook.tests.TestBase
 ru/stqa/pft/addressbook/tests/GroupCreation.java
  ru.stqa.pft.addressbook.tests.GroupCreation
-ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
- ru.stqa.pft.addressbook.appmanager.ApplicationManager
-ru/stqa/pft/addressbook/tests/ContactCreationTest.java
- ru.stqa.pft.addressbook.tests.ContactCreationTest
 ru/stqa/pft/addressbook/tests/GroupModificationTest.java
  ru.stqa.pft.addressbook.tests.GroupModificationTest
+ru/stqa/pft/addressbook/tests/ContactCreationTest.java
+ ru.stqa.pft.addressbook.tests.ContactCreationTest
+ru/stqa/pft/addressbook/appmanager/ApplicationManager.java
+ ru.stqa.pft.addressbook.appmanager.ApplicationManager

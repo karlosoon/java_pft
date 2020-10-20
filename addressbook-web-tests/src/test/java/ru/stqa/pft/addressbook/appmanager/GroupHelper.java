@@ -29,7 +29,7 @@ public class GroupHelper extends HelperBase {
     }
 
     public void deleteSelectedGroups() {
-        click(By.cssSelector("input:nth-child(8)"));
+        click(By.name("delete"));
     }
 
     public void selectGroup() {
@@ -53,5 +53,9 @@ public class GroupHelper extends HelperBase {
 
     public boolean isThereAGroup() {
         return isElementPresent(By.name("selected[]"));
+    }
+
+    public int getGroupCount() {
+        return driver.findElements(By.name("selected[]")).size();
     }
 }
